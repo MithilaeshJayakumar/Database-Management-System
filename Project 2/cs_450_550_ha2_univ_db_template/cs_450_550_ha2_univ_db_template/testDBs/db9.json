@@ -1,0 +1,155 @@
+{
+  "db_name": "university_database",
+  "tables": {
+    "department": [
+      {
+        "dcode": "C",
+        "dname": "culture",
+        "chair": 4
+      },
+      {
+        "dcode": "History",
+        "dname": "history",
+        "chair": 9
+      },
+      {
+        "dcode": "CS",
+        "dname": "computer_science",
+        "chair": 17
+      },
+      {
+        "dcode": "OR",
+        "dname": "operations_research",
+        "chair": 11
+      },
+      {
+        "dcode": "MTH",
+        "dname": "Mathematics",
+        "chair": 13
+      }
+    ],
+    "course": [
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "title": "Formal Methods",
+        "units": 3
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "title": "Discrete Mathematics",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "title": "object-oriented programming",
+        "units": 3
+      }
+    ],
+    "prereq": [],
+    "class": [
+      {
+        "class": 21,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 25
+      },
+      {
+        "class": 22,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 35
+      }
+    ],
+    "faculty": [
+      {
+        "ssn": 4,
+        "name": "Dietz",
+        "dcode": "C",
+        "rank": "professor"
+      },
+      {
+        "ssn": 9,
+        "name": "Jackson",
+        "dcode": "History",
+        "rank": "professor"
+      },
+      {
+        "ssn": 10,
+        "name": "Bienz",
+        "dcode": "History",
+        "rank": "assistant_professor"
+      },
+      {
+        "ssn": 13,
+        "name": "Webber",
+        "dcode": "MTH",
+        "rank": "professor"
+      },
+      {
+        "ssn": 17,
+        "name": "Oneil",
+        "dcode": "CS",
+        "rank": "professor"
+      },
+      {
+        "ssn": 11,
+        "name": "McLean",
+        "dcode": "OR",
+        "rank": "professor"
+      },
+      {
+        "ssn": 21,
+        "name": "Smith",
+        "dcode": "CS",
+        "rank": "assistant_professor"
+      },
+      {
+        "ssn": 25,
+        "name": "Smith",
+        "dcode": "CS",
+        "rank": "assistant_professor"
+      },
+      {
+        "ssn": 35,
+        "name": "Johnson",
+        "dcode": "CS",
+        "rank": "professor"
+      }
+    ],
+    "student": [
+      {
+        "ssn": 82,
+        "name": "Tom Cruise",
+        "major": "HIST",
+        "status": "active"
+      }
+    ],
+    "enrollment": [
+      {
+        "class": 21,
+        "ssn": 82
+      },
+      {
+        "class": 22,
+        "ssn": 82
+      }
+    ],
+    "transcript": [
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "ssn": 82,
+        "grade": "A"
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "ssn": 82,
+        "grade": "B"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+INSTALLATION:
+
+1. Python
+	--> Link for python installation:
+		--> https://realpython.com/installing-python/
+	--> Requires python 3.5 or higher
+
+2. Zorba
+	--> Link for zorba installation:
+		--> http://www.zorba.io/home
+
+3a. Cx-Oracle
+	--> Link for cx_Oracle Installation:
+		--> https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html
+
+3b. Oracle Instant Client
+	-->Link for Oracle Instant Client:
+		--> https://www.oracle.com/database/technologies/instant-client/downloads.html
+	--> Install the BASIC PACKAGE
+
+
+NOTES:
+--> Python is required to produce the main answers
+--> Zorba is required to check your produced answers with the correct answer
+--> cx-oracle is required to connect to Oracle DB only. 
+--> So, if you have problem installing anything other than the base python, you can try finishing the algebra and calculus part first
+--> SQL solution requires VPN to GMU network similar to the way Oracle SQL Developer requires it
+--> For SQL solution, set your username and password provided in solution_sql/credentials.py
+	--> This requires the oracle password not the masonlive password!
+--> A sample of answers for questions covered in class is provided in respective folders as: class_example_<type>.<ext>
+--> A sample of runs for questions covered in class is provided in respective folders as: class_example_test_<type>.py
+--> Your views must have exactly the same name and the same column names ordered by as specified in the question
+--> The files you need to edit and fill are:
+	--> solution_algebra/ha2lib_algebra.py
+	--> solution_calculus/ha2lib_calculus.py
+	--> solution_sql/sql_views.sql
+--> You might need Atom or similar json friendly interface to peruse/understand your answers.json or report.json
+--> By default, the answers produced will either be empty (algebra/calculus) or contain bogus answers (sql) 
+	--> However, if everything is installed properly, you should some proper output nevertheless.
+
+NOTES for ANSWER FORMAT:
+--> All queries must be in queries.sql
+--> Do not include a semi-colon(;) in comments in any of the SQL file.
+--> Must have semicolon(;) after each command in the SQL file as shown in template.
+--> Do not change any of the database files inside the folder `testDBs'
+--> Do not change 'create_empty_tables.sql' file or its location
+--> testDBs/correct_answers.json has the right answers and your answers.json should contain similar results
+--> Do not forget to use DISTINCT where necessary
+--> Order matters in solution so order as mentioned in each question

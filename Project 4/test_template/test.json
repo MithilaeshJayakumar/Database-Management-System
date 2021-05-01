@@ -1,0 +1,249 @@
+{
+  "test_name": "HA4 database class",
+  "sections": [
+    {
+      "section_name": "Problem 1",
+      "question 1": {
+        "AB->C": {
+          "your answer": "no",
+          "answer_format_example": "yes",
+          "answer_format_example2": "no",
+          "question_percentage": 1.5625
+        }
+      },
+      "question 2": {
+        "A->B": {
+          "your answer": "yes",
+          "answer_format_example": "yes",
+          "answer_format_example2": "no",
+          "question_percentage": 1.5625
+        }
+      },
+      "question 3": {
+        "C->A": {
+          "your answer": "no",
+          "answer_format_example": "yes",
+          "answer_format_example2": "no",
+          "question_percentage": 1.5625
+        }
+      },
+      "question 4": {
+        "BC->A": {
+          "your answer": "no",
+          "answer_format_example": "yes",
+          "answer_format_example2": "no",
+          "question_percentage": 1.5625
+        }
+      },
+      "question 5": {
+        "ABC->A": {
+          "your answer": "yes",
+          "answer_format_example": "yes",
+          "answer_format_example2": "no",
+          "question_percentage": 1.5625
+        }
+      },
+      "question 6": {
+        "AB->AC": {
+          "your answer": "no",
+          "answer_format_example": "yes",
+          "answer_format_example2": "no",
+          "question_percentage": 1.5625
+        }
+      }
+    },
+    {
+      "section_name": "Problem 2",
+      "question 1": {
+        "cover of F": {
+          "your answer": ["B->A","A->C"],
+          "answer format example": [
+            "BC->AB",
+            "C->A",
+            "AC->B"
+          ],
+          "comment": "each set of attributes represented as sorted string; no blanks",
+          "question_percentage": 6.25
+        }
+      },
+      "question 2": {
+        "your answer": "no",
+        "answer format example": "yes",
+        "answer format example1": "no",
+        "comment": "replace ... with yes or no",
+        "question_percentage": 1.5625
+      }
+    },
+    {
+      "section_name": "Problem 3",
+      "are the two sets of fds equivalent": {
+        "your answer": "yes",
+        "answer format example": "yes",
+        "answer format example1": "no",
+        "question_percentage": 7.8125
+      }
+    },
+    {
+      "section_name": "Problem 4",
+      "question 1": {
+        "is R in BCNF": {
+          "your answer": "no",
+          "answer format example": "yes",
+          "answer format example1": "no",
+          "question_percentage": 3.125
+        }
+      },
+      "question 2": {
+        "set of candidate keys for R": {
+          "your answer": ["IJ"],
+          "answer format example": [
+            "ABC",
+            "BE",
+            "ADE"
+          ],
+          "comment": "replace ... with a set of candidate keys",
+          "comment1": "each candidate key is represented as a sorted string; no blanks around",
+          "question_percentage": 7.8125
+        }
+      },
+      "question 3": {
+        "is R in 3NF": {
+          "your answer": "no",
+          "answer format example": "yes",
+          "answer format example1": "no",
+          "comment": "replace ... with the string yes or no; no blanks",
+          "question_percentage": 3.125
+        }
+      }
+    },
+    {
+      "section_name": "Problem 5",
+      "question 1": {
+        "is R in BCNF": {
+          "your answer": "yes",
+          "answer format example": "yes",
+          "answer format example1": "no",
+          "comment": "replace ... with the string yes or no; no blanks",
+          "question_percentage": 3.90625
+        }
+      },
+      "question 2": {
+        "is lossless join decomposition": {
+          "your answer": "yes",
+          "answer format example": "yes",
+          "answer format example1": "no",
+          "comment": "replace ... with the string yes or no; no blanks",
+          "question_percentage": 3.90625
+        }
+      },
+      "question 3": {
+        "cover of F for schema S": {
+          "your answer": ["C->E","D->C","E->D"],
+          "answer format example": [
+            "BC->AB",
+            "C->A",
+            "AC->B"
+          ],
+          "comment": "replace ... with a set of fds",
+          "comment1": "each fd is represented as a string; with -> in the middle, and no blanks around; left and right hand side must each be sorted",
+          "question_percentage": 7.8125
+        }
+      },
+      "question 4": {
+        "cover of F for schema T": {
+          "your answer": ["D->B","B->A","A->D"],
+          "answer format example": [
+            "BC->AB",
+            "C->A",
+            "AC->B"
+          ],
+          "comment": "replace ... with a set of fds",
+          "comment1": "each fd is represented as a string; with -> in the middle, and no blanks around; left and right hand side must each be sorted",
+          "question_percentage": 7.8125
+        }
+      },
+      "question 5": {
+        "does this decomposition preserve dependencies": {
+          "your answer": "yes",
+          "answer format example": "yes",
+          "answer format example1": "no",
+          "comment": "replace ... with the string yes or no; no blanks",
+          "question_percentage": 4.6875
+        }
+      }
+    },
+    {
+      "section_name": "Problem 6",
+      "question 1": {
+        "set of all candidate keys": {
+          "your answer": ["AB","ACE","AEF"],
+          "answer format example": [
+            "ABC",
+            "BE",
+            "ADE"
+          ],
+          "comment": "replace ... with a set of candidate keys",
+          "comment1": "each candidate key is represented as a string; no blanks around; each string must be sorted",
+          "question_percentage": 7.8125
+        }
+      },
+      "question 2": {
+        "is (R,F) in 3NF": {
+          "your answer": "no",
+          "answer format example": "yes",
+          "answer format example1": "no",
+          "comment": "replace ... with the string yes or no; no blanks",
+          "question_percentage": 3.90625
+        }
+      },
+      "question 3": {
+        "set of fds that violate 3NF": {
+          "your answer": ["B->D"],
+          "answer format example": [
+            "BC->AB",
+            "C->A",
+            "AC->B"
+          ],
+          "comment": "replace ... with a set of fds",
+          "comment1": "note that each fd is represented as a string; with -> in the middle, and no blanks around; left and right hand side must each be sorted",
+          "question_percentage": 6.25
+        }
+      },
+      "question 4": {
+        "is (R,F) in BCNF": {
+          "your answer": "no",
+          "answer format example": "yes",
+          "answer format example1": "no",
+          "comment": "replace ... with the string yes or no; no blanks",
+          "question_percentage": 3.90625
+        }
+      },
+      "question 5": {
+        "set of fds that violate BCNF": {
+          "your answer": ["B->D","AC->F"],
+          "answer format example": [
+            "BC->AB",
+            "C->A",
+            "AC->B"
+          ],
+          "comment": "replace ... with a set of fds",
+          "comment_note": "note that each fd is represented as a string; with -> in the middle, and no blanks around; left and right hand side must each be sorted",
+          "question_percentage": 6.25
+        }
+      },
+      "question 6": {
+        "set of schemas in the decomposition result": {
+          "your answer": ["BD","ACF","ABCE"],
+          "answer format example": [
+            "ABC",
+            "BE",
+            "ADE"
+          ],
+          "comment": "replace ... with a set of schemas",
+          "comment1": "each schema is represented as a string; no blanks around; each string must be sorted",
+          "question_percentage": 4.6875
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "db_name": "db6",
+  "tables": {
+    "items": [
+      {
+        "item": "drawer",
+        "unitWeight": 1
+      },
+      {
+        "item": "leg",
+        "unitWeight": 1
+      },
+      {
+        "item": "table top",
+        "unitWeight": 1
+      },
+      {
+        "item": "desk top",
+        "unitWeight": 1
+      },
+      {
+        "item": "end table",
+        "unitWeight": 5
+      },
+      {
+        "item": "desk",
+        "unitWeight": 5
+      },
+      {
+        "item": "table",
+        "unitWeight": 5
+      },
+      {
+        "item": "round table",
+        "unitWeight": 2
+      }
+    ],
+    "busEntities": [
+      {
+        "entity": "UPS", 
+        "shipLoc": "New York",
+        "address": "Manhattan",
+        "web": "ups@gmail.com",
+        "contact": 1234
+      },
+      {
+        "entity": "FedEx", 
+        "shipLoc": "California",
+        "address": "LA",
+        "web": "fedex@gmail.com",
+        "contact": 2345
+      },
+      {
+        "entity": "manuf1", 
+        "shipLoc": "Washington",
+        "address": "Man1 St",
+        "web": "manf1@yahoo.com",
+        "contact": 3575
+      },
+      {
+        "entity": "manuf2", 
+        "shipLoc": "California",
+        "address": "Man2 Bd",
+        "web": "manuf2@hotmail.com",
+        "contact": 3576
+      },
+      {
+        "entity": "manuf3", 
+        "shipLoc": "California",
+        "address": "Man3 Bd",
+        "web": "manuf3@hotmail.com",
+        "contact": 3577
+      },
+      {
+        "entity": "supplier1", 
+        "shipLoc": "New York",
+        "address": "Supp1 Ave",
+        "web": "supplier1@hotmail.com",
+        "contact": 1975
+      },
+      {
+        "entity": "supplier2",
+        "shipLoc": "California",
+        "address": "Supp2 Dr",
+        "web": "supplier2@gmail.com",
+        "contact": 1976
+      },
+      {
+        "entity": "supplier3",
+        "shipLoc": "New York",
+        "address": "Supp3 Dr",
+        "web": "supplier3@gmail.com",
+        "contact": 1977
+      },
+      {
+        "entity": "customer1",
+        "shipLoc": "Washington",
+        "address": "Cust1 Dr",
+        "web": "customer1@yahoo.com",
+        "contact": 7531
+      },
+      {
+        "entity": "customer2",
+        "shipLoc": "Washington",
+        "address": "Cust2 Dr",
+        "web": "customer2@yahoo.com",
+        "contact": 7532
+      },
+      {
+        "entity": "customer3",
+        "shipLoc": "California",
+        "address": "Cust3 Dr",
+        "web": "customer3@gmail.com",
+        "contact": 7533
+      }
+    ],
+    "billOfMaterials":[
+      {
+        "prodItem": "end table",
+        "matItem": "leg",
+        "qtyMatPerItem": 4
+      },
+      {
+        "prodItem": "end table",
+        "matItem": "drawer",
+        "qtyMatPerItem": 1
+      },
+      {
+        "prodItem": "table",
+        "matItem": "leg",
+        "qtyMatPerItem": 4
+      },
+      {
+        "prodItem": "table",
+        "matItem": "table top",
+        "qtyMatPerItem": 1
+      },
+      {
+        "prodItem": "desk",
+        "matItem": "desk top",
+        "qtyMatPerItem": 1
+      },
+      {
+        "prodItem": "desk",
+        "matItem": "leg",
+        "qtyMatPerItem": 4
+      },
+      {
+        "prodItem": "round table",
+        "matItem": "table top",
+        "qtyMatPerItem": 1
+      },
+      {
+        "prodItem": "round table",
+        "matItem": "leg",
+        "qtyMatPerItem": 1 
+      }
+    ],
+    "supplierDiscounts":[
+      {
+        "supplier": "supplier1",
+        "amt1": 20000,
+        "disc1": 0.15,
+        "amt2": 30000,
+        "disc2": 0.25
+      },
+      {
+        "supplier": "supplier2",
+        "amt1": 15000,
+        "disc1": 0.12,
+        "amt2": 25000,
+        "disc2": 0.28
+      },
+      {
+        "supplier": "supplier3",
+        "amt1": 17000,
+        "disc1": 0.18,
+        "amt2": 20000,
+        "disc2": 0.22
+      }
+    ],
+    "supplyUnitPricing":[
+      {
+        "supplier": "supplier1",
+        "item": "drawer",
+        "ppu": 20
+      },
+      {
+        "supplier": "supplier1",
+        "item": "leg",
+        "ppu": 15
+      },
+      {
+        "supplier": "supplier1",
+        "item": "table top",
+        "ppu": 35
+      },
+      {
+        "supplier": "supplier1",
+        "item": "desk top",
+        "ppu": 30
+      },
+      {
+        "supplier": "supplier1",
+        "item": "table",
+        "ppu": 200
+      },
+      {
+        "supplier": "supplier1",
+        "item": "end table",
+        "ppu": 100
+      },
+      {
+        "supplier": "supplier1",
+        "item": "round table",
+        "ppu": 175
+      },
+      {
+        "supplier": "supplier1",
+        "item": "desk",
+        "ppu": 175
+      },
+      {
+        "supplier": "supplier2",
+        "item": "drawer",
+        "ppu": 21
+      },
+      {
+        "supplier": "supplier2",
+        "item": "leg",
+        "ppu": 12
+      },
+      {
+        "supplier": "supplier2",
+        "item": "table top",
+        "ppu": 36
+      },
+      {
+        "supplier": "supplier2",
+        "item": "desk top",
+        "ppu": 29
+      },
+      {
+        "supplier": "supplier2",
+        "item": "table",
+        "ppu": 207
+      },
+      {
+        "supplier": "supplier2",
+        "item": "end table",
+        "ppu": 110
+      },
+      {
+        "supplier": "supplier2",
+        "item": "round table",
+        "ppu": 147
+      },      
+      {
+        "supplier": "supplier2",
+        "item": "desk",
+        "ppu": 154
+      },
+      {
+        "supplier": "supplier3",
+        "item": "drawer",
+        "ppu": 32
+      },
+      {
+        "supplier": "supplier3",
+        "item": "leg",
+        "ppu": 25
+      },
+      {
+        "supplier": "supplier3",
+        "item": "table top",
+        "ppu": 34
+      },
+      {
+        "supplier": "supplier3",
+        "item": "desk top",
+        "ppu": 35
+      },
+      {
+        "supplier": "supplier3",
+        "item": "table",
+        "ppu": 217
+      },
+      {
+        "supplier": "supplier3",
+        "item": "end table",
+        "ppu": 189
+      },
+      {
+        "supplier": "supplier3",
+        "item": "round table",
+        "ppu": 157
+      },      
+      {
+        "supplier": "supplier3",
+        "item": "desk",
+        "ppu": 114
+      }
+    ],
+    "manufDiscounts":[
+      {
+        "manuf": "manuf1",
+        "amt1": 80000,
+        "disc1": 0.18
+      },
+      {
+        "manuf": "manuf2",
+        "amt1": 72000,
+        "disc1": 0.13
+      },
+      {
+        "manuf": "manuf3",
+        "amt1": 62000,
+        "disc1": 0.11
+      }
+    ],
+    "manufUnitPricing":[
+      {
+        "manuf": "manuf1",
+        "prodItem": "table",
+        "setUpCost": 500,
+        "prodCostPerUnit": 120
+      },
+      {
+        "manuf": "manuf1",
+        "prodItem": "desk",
+        "setUpCost": 473,
+        "prodCostPerUnit": 107
+      },
+      {
+        "manuf": "manuf1",
+        "prodItem": "round table",
+        "setUpCost": 394,
+        "prodCostPerUnit": 89
+      },
+      {
+        "manuf": "manuf1",
+        "prodItem": "end table",
+        "setUpCost": 150,
+        "prodCostPerUnit": 44
+      },
+      {
+        "manuf": "manuf2",
+        "prodItem": "table",
+        "setUpCost": 300,
+        "prodCostPerUnit": 220
+      },
+      {
+        "manuf": "manuf2",
+        "prodItem": "desk",
+        "setUpCost": 270,
+        "prodCostPerUnit": 157
+      },
+      {
+        "manuf": "manuf2",
+        "prodItem": "round table",
+        "setUpCost": 394,
+        "prodCostPerUnit": 189
+      },
+      {
+        "manuf": "manuf2",
+        "prodItem": "end table",
+        "setUpCost": 200,
+        "prodCostPerUnit": 44
+      },
+      {
+        "manuf": "manuf3",
+        "prodItem": "table",
+        "setUpCost": 320,
+        "prodCostPerUnit": 150
+      },
+      {
+        "manuf": "manuf3",
+        "prodItem": "desk",
+        "setUpCost": 250,
+        "prodCostPerUnit": 147
+      },
+      {
+        "manuf": "manuf3",
+        "prodItem": "round table",
+        "setUpCost": 294,
+        "prodCostPerUnit": 189
+      },
+      {
+        "manuf": "manuf3",
+        "prodItem": "end table",
+        "setUpCost": 220,
+        "prodCostPerUnit": 54
+      }
+    ],
+    "shippingPricing":[
+      {
+        "shipper": "UPS",
+        "fromLoc": "New York",
+        "toLoc": "New York",
+        "minPackagePrice": 200,
+        "pricePerLb": 10,
+        "amt1": 30000,
+        "disc1": 0.10,
+        "amt2": 80000,
+        "disc2": 0.22
+      },
+      {
+        "shipper": "UPS",
+        "fromLoc": "New York",
+        "toLoc": "Washington",
+        "minPackagePrice": 500,
+        "pricePerLb": 2,
+        "amt1": 30000,
+        "disc1": 0.12,
+        "amt2": 80000,
+        "disc2": 0.3
+      },
+      {
+        "shipper": "UPS",
+        "fromLoc": "New York",
+        "toLoc": "California",
+        "minPackagePrice": 50,
+        "pricePerLb": 25,
+        "amt1": 50000,
+        "disc1": 0.2,
+        "amt2": 200000,
+        "disc2": 0.39
+      },
+      {
+        "shipper": "UPS",
+        "fromLoc": "Washington",
+        "toLoc": "New York",
+        "minPackagePrice": 5400,
+        "pricePerLb": 14,
+        "amt1": 28500,
+        "disc1": 0.12,
+        "amt2": 91500,
+        "disc2": 0.3
+      },
+      {
+        "shipper": "UPS",
+        "fromLoc": "Washington",
+        "toLoc": "Washington",
+        "minPackagePrice": 320,
+        "pricePerLb": 11,
+        "amt1": 45700,
+        "disc1": 0.11,
+        "amt2": 62700,
+        "disc2": 0.4
+      },
+      {
+        "shipper": "UPS",
+        "fromLoc": "Washington",
+        "toLoc": "California",
+        "minPackagePrice": 400,
+        "pricePerLb": 20,
+        "amt1": 50000,
+        "disc1": 0.18,
+        "amt2": 180000,
+        "disc2": 0.28
+      },
+      {
+        "shipper": "UPS",
+        "fromLoc": "California",
+        "toLoc": "New York",
+        "minPackagePrice": 500,
+        "pricePerLb": 22,
+        "amt1": 47000,
+        "disc1": 0.16,
+        "amt2": 170000,
+        "disc2": 0.19
+      },
+      {
+        "shipper": "UPS",
+        "fromLoc": "California",
+        "toLoc": "Washington",
+        "minPackagePrice": 1500,
+        "pricePerLb": 17,
+        "amt1": 52300,
+        "disc1": 0.12,
+        "amt2": 120000,
+        "disc2": 0.55
+      },
+      {
+        "shipper": "UPS",
+        "fromLoc": "California",
+        "toLoc": "California",
+        "minPackagePrice": 1300,
+        "pricePerLb": 14,
+        "amt1": 55900,
+        "disc1": 0.11,
+        "amt2": 87500,
+        "disc2": 0.33
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "New York",
+        "toLoc": "New York",
+        "minPackagePrice": 200,
+        "pricePerLb": 10,
+        "amt1": 30000,
+        "disc1": 0.10,
+        "amt2": 80000,
+        "disc2": 0.22
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "New York",
+        "toLoc": "Washington",
+        "minPackagePrice": 350,
+        "pricePerLb": 14,
+        "amt1": 28500,
+        "disc1": 0.11,
+        "amt2": 70000,
+        "disc2": 0.3
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "New York",
+        "toLoc": "California",
+        "minPackagePrice": 625,
+        "pricePerLb": 24,
+        "amt1": 70000,
+        "disc1": 0.21,
+        "amt2": 180000,
+        "disc2": 0.34
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "Washington",
+        "toLoc": "New York",
+        "minPackagePrice": 450,
+        "pricePerLb": 13,
+        "amt1": 50000,
+        "disc1": 0.17,
+        "amt2": 181500,
+        "disc2": 0.35
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "Washington",
+        "toLoc": "Washington",
+        "minPackagePrice": 385,
+        "pricePerLb": 13,
+        "amt1": 47500,
+        "disc1": 0.12,
+        "amt2": 170000,
+        "disc2": 0.5
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "Washington",
+        "toLoc": "California",
+        "minPackagePrice": 490,
+        "pricePerLb": 22,
+        "amt1": 150000,
+        "disc1": 0.18,
+        "amt2": 180000,
+        "disc2": 0.28
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "California",
+        "toLoc": "New York",
+        "minPackagePrice": 1500,
+        "pricePerLb": 17,
+        "amt1": 52300,
+        "disc1": 0.12,
+        "amt2": 120000,
+        "disc2": 0.55
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "California",
+        "toLoc": "Washington",
+        "minPackagePrice": 500,
+        "pricePerLb": 22,
+        "amt1": 47000,
+        "disc1": 0.16,
+        "amt2": 170000,
+        "disc2": 0.19
+        
+      },
+      {
+        "shipper": "FedEx",
+        "fromLoc": "California",
+        "toLoc": "California",
+        "minPackagePrice": 1385,
+        "pricePerLb": 13,
+        "amt1": 10000,
+        "disc1": 0.05,
+        "amt2": 87500,
+        "disc2": 0.12
+      }
+    ],
+    "customerDemand":[
+      {
+        "customer": "customer2",
+        "item": "table",
+        "qty": 1
+      },
+      {
+        "customer": "customer1",
+        "item": "round table",
+        "qty": 1
+      },
+      {
+        "customer": "customer2",
+        "item": "desk",
+        "qty": 1
+      }
+    ],
+    "supplyOrders":[
+      {
+        "item": "table",
+        "supplier": "supplier1",
+        "qty": 1
+      },
+      {
+        "item": "round table",
+        "supplier": "supplier1",
+        "qty": 1
+      },
+      {
+        "item": "table",
+        "supplier": "supplier2",
+        "qty": 1
+      },
+      {
+        "item": "leg",
+        "supplier": "supplier2",
+        "qty": 1
+      },
+      {
+        "item": "drawer",
+        "supplier": "supplier3",
+        "qty": 1
+      },
+      {
+        "item": "leg",
+        "supplier": "supplier3",
+        "qty": 1
+      }   
+    ],
+    "manufOrders":[
+      {
+        "item": "desk",
+        "manuf": "manuf1",
+        "qty": 1
+      },
+      {
+        "item": "desk",
+        "manuf": "manuf2",
+        "qty": 1
+      },
+      {
+        "item": "end table",
+        "manuf": "manuf1",
+        "qty": 1
+      },
+      {
+        "item": "end table",
+        "manuf": "manuf3",
+        "qty": 1
+      },
+      {
+        "item": "table",
+        "manuf": "manuf1",
+        "qty": 1
+      },
+      {
+        "item": "table",
+        "manuf": "manuf2",
+        "qty": 1
+      },
+      {
+        "item": "round table",
+        "manuf": "manuf3",
+        "qty": 1
+      }
+    ],
+    "shipOrders":[
+    	{
+        "item": "table",
+        "shipper": "FedEx",
+        "sender": "supplier2",
+        "recipient": "customer2",
+        "qty": 1
+      },
+      {
+        "item": "table",
+        "shipper": "FedEx",
+        "sender": "manuf1",
+        "recipient": "customer2",
+        "qty": 1
+      },
+      {
+        "item": "leg",
+        "shipper": "UPS",
+        "sender": "supplier2",
+        "recipient": "manuf1",
+        "qty": 1
+      },
+      {
+        "item": "drawer",
+        "shipper": "FedEx",
+        "sender": "supplier3",
+        "recipient": "manuf2",
+        "qty": 1
+      },
+      {
+        "item": "leg",
+        "shipper": "FedEx",
+        "sender": "supplier1",
+        "recipient": "manuf1",
+        "qty": 1
+      },
+      {
+        "item": "desk top",
+        "shipper": "FedEx",
+        "sender": "supplier2",
+        "recipient": "manuf1",
+        "qty": 1
+      },
+      {
+        "item": "drawer",
+        "shipper": "UPS",
+        "sender": "supplier1",
+        "recipient": "manuf1",
+        "qty": 1
+      },
+      {
+      	"item": "desk top",
+        "shipper": "UPS",
+        "sender": "supplier3",
+        "recipient": "manuf2",
+        "qty": 1
+      },
+      {
+      	"item": "desk",
+        "shipper": "FedEx",
+        "sender": "manuf1",
+        "recipient": "customer3",
+        "qty": 1
+      },
+      {
+      	"item": "round table",
+        "shipper": "FedEx",
+        "sender": "manuf3",
+        "recipient": "customer1",
+        "qty": 1
+      },
+      {
+        "item": "round table",
+        "shipper": "FedEx",
+        "sender": "manuf1",
+        "recipient": "customer1",
+        "qty": 1
+      },
+      {
+        "item": "desk",
+        "shipper": "FedEx",
+        "sender": "manuf2",
+        "recipient": "customer2",
+        "qty": 1
+      }
+    ]
+  }
+}

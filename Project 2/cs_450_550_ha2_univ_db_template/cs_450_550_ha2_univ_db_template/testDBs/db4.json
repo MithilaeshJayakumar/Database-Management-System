@@ -1,0 +1,100 @@
+{
+  "db_name": "university_database",
+  "tables": {
+    "department": [],
+    "course": [
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "title": "object-oriented programming",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 310,
+        "title": "Data Structure",
+        "units": 3
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "title": "Discrete Mathematics",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "title": "Formal Methods",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 530,
+        "title": "Mathematical Foundations of CS",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 550,
+        "title": "Database Management",
+        "units": 6
+      },
+      {
+        "dcode": "C",
+        "cno": 101,
+        "title": "Vacation in Hawaii",
+        "units": 1
+      },
+      {
+        "dcode": "History",
+        "cno": 101,
+        "title": "Ancient History",
+        "units": 3
+      },
+      {
+        "dcode": "History",
+        "cno": 102,
+        "title": "Middle Ages",
+        "units": 3
+      },
+      {
+        "dcode": "History",
+        "cno": 110,
+        "title": "European History",
+        "units": 6
+      }
+    ],
+    "prereq": [],
+    "class": [],
+    "faculty": [],
+    "student": [
+      {
+        "ssn": 10,
+        "name": "John Smith",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 15,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "enrollment": [],
+    "transcript": [
+      {
+        "dcode": "CS",
+        "cno": 530,
+        "ssn": 10,
+        "grade": "A"
+      },
+      {
+        "dcode": "CS",
+        "cno": 530,
+        "ssn": 15,
+        "grade": "B"
+      }
+    ]
+  }
+}

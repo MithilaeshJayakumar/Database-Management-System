@@ -1,0 +1,1066 @@
+{
+  "db1": {
+    "query_a": [
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_b": [
+      {
+        "ssn": 84,
+        "name": "John",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_c": [
+      {
+        "ssn": 10,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_d": [
+      {
+        "ssn": 75,
+        "name": "Green",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "Simpson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 82,
+        "name": "Robertson",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "C",
+        "cno": 101
+      },
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 310
+      },
+      {
+        "dcode": "CS",
+        "cno": 530
+      },
+      {
+        "dcode": "History",
+        "cno": 101
+      },
+      {
+        "dcode": "History",
+        "cno": 102
+      },
+      {
+        "dcode": "History",
+        "cno": 110
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [
+      {
+        "dcode": "CS",
+        "cno": 330
+      },
+      {
+        "dcode": "CS",
+        "cno": 550
+      }
+    ],
+    "query_h": [
+      {
+        "class": 21,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 25
+      },
+      {
+        "class": 22,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 35
+      },
+      {
+        "class": 23,
+        "dcode": "CS",
+        "cno": 550,
+        "instr": 10
+      }
+    ],
+    "query_i": [
+      {
+        "ssn": 10,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 82,
+        "name": "Robertson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [
+      {
+        "ssn": 82
+      }
+    ],
+    "query_l": [
+      {
+        "ssn": 82
+      }
+    ]
+  },
+  "db2": {
+    "query_a": [],
+    "query_b": [],
+    "query_c": [],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [],
+    "query_g": [],
+    "query_h": [],
+    "query_i": [],
+    "query_j": [],
+    "query_k": [],
+    "query_l": []
+  },
+  "db3": {
+    "query_a": [
+      {
+        "ssn": 82,
+        "name": "Robertson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 10,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 82,
+        "name": "Robertson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_d": [
+      {
+        "ssn": 75,
+        "name": "Green",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "Simpson",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "C",
+        "cno": 101
+      },
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 310
+      },
+      {
+        "dcode": "CS",
+        "cno": 530
+      },
+      {
+        "dcode": "History",
+        "cno": 101
+      },
+      {
+        "dcode": "History",
+        "cno": 102
+      },
+      {
+        "dcode": "History",
+        "cno": 110
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [
+      {
+        "dcode": "CS",
+        "cno": 330
+      },
+      {
+        "dcode": "CS",
+        "cno": 550
+      }
+    ],
+    "query_h": [
+      {
+        "class": 21,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 25
+      },
+      {
+        "class": 22,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 35
+      },
+      {
+        "class": 23,
+        "dcode": "CS",
+        "cno": 550,
+        "instr": 25
+      }
+    ],
+    "query_i": [
+      {
+        "ssn": 10,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 82,
+        "name": "Robertson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [],
+    "query_l": []
+  },
+  "db4": {
+    "query_a": [
+      {
+        "ssn": 10,
+        "name": "John Smith",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 15,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 10,
+        "name": "John Smith",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 15,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "C",
+        "cno": 101
+      },
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 310
+      },
+      {
+        "dcode": "CS",
+        "cno": 330
+      },
+      {
+        "dcode": "CS",
+        "cno": 530
+      },
+      {
+        "dcode": "CS",
+        "cno": 550
+      },
+      {
+        "dcode": "History",
+        "cno": 101
+      },
+      {
+        "dcode": "History",
+        "cno": 102
+      },
+      {
+        "dcode": "History",
+        "cno": 110
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [],
+    "query_h": [],
+    "query_i": [
+      {
+        "ssn": 10,
+        "name": "John Smith",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 15,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [],
+    "query_l": []
+  },
+  "db5": {
+    "query_a": [
+      {
+        "ssn": 10,
+        "name": "John Smith",
+        "major": "OR",
+        "status": "active"
+      }
+    ],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 10,
+        "name": "John Smith",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 15,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "C",
+        "cno": 101
+      },
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 310
+      },
+      {
+        "dcode": "CS",
+        "cno": 330
+      },
+      {
+        "dcode": "CS",
+        "cno": 530
+      },
+      {
+        "dcode": "CS",
+        "cno": 550
+      },
+      {
+        "dcode": "History",
+        "cno": 101
+      },
+      {
+        "dcode": "History",
+        "cno": 102
+      },
+      {
+        "dcode": "History",
+        "cno": 110
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [],
+    "query_h": [],
+    "query_i": [
+      {
+        "ssn": 10,
+        "name": "John Smith",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 15,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [],
+    "query_l": []
+  },
+  "db6": {
+    "query_a": [
+      {
+        "ssn": 10,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      }
+    ],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 10,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 75,
+        "name": "Green",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "Simpson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 82,
+        "name": "Robertson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "C",
+        "cno": 101
+      },
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 310
+      },
+      {
+        "dcode": "CS",
+        "cno": 330
+      },
+      {
+        "dcode": "CS",
+        "cno": 530
+      },
+      {
+        "dcode": "CS",
+        "cno": 550
+      },
+      {
+        "dcode": "History",
+        "cno": 101
+      },
+      {
+        "dcode": "History",
+        "cno": 102
+      },
+      {
+        "dcode": "History",
+        "cno": 110
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [],
+    "query_h": [],
+    "query_i": [
+      {
+        "ssn": 10,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 75,
+        "name": "Green",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "Simpson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 82,
+        "name": "Robertson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [],
+    "query_l": []
+  },
+  "db7": {
+    "query_a": [],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 82,
+        "name": "Tom Cruise",
+        "major": "HIST",
+        "status": "active"
+      }
+    ],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [
+      {
+        "dcode": "CS",
+        "cno": 330
+      }
+    ],
+    "query_h": [
+      {
+        "class": 21,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 25
+      },
+      {
+        "class": 22,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 35
+      }
+    ],
+    "query_i": [
+      {
+        "ssn": 82,
+        "name": "Tom Cruise",
+        "major": "HIST",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [
+      {
+        "ssn": 82
+      }
+    ],
+    "query_l": []
+  },
+  "db8": {
+    "query_a": [],
+    "query_b": [],
+    "query_c": [],
+    "query_d": [
+      {
+        "ssn": 82,
+        "name": "Tom Cruise",
+        "major": "HIST",
+        "status": "active"
+      }
+    ],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [
+      {
+        "dcode": "CS",
+        "cno": 330
+      }
+    ],
+    "query_h": [
+      {
+        "class": 21,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 25
+      },
+      {
+        "class": 22,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 35
+      }
+    ],
+    "query_i": [
+      {
+        "ssn": 82,
+        "name": "Tom Cruise",
+        "major": "HIST",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [
+      {
+        "ssn": 82
+      }
+    ],
+    "query_l": []
+  },
+  "db9": {
+    "query_a": [],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 82,
+        "name": "Tom Cruise",
+        "major": "HIST",
+        "status": "active"
+      }
+    ],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 330
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [],
+    "query_h": [],
+    "query_i": [
+      {
+        "ssn": 82,
+        "name": "Tom Cruise",
+        "major": "HIST",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [
+      {
+        "ssn": 82
+      }
+    ],
+    "query_l": []
+  },
+  "db10": {
+    "query_a": [],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [],
+    "query_g": [],
+    "query_h": [],
+    "query_i": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_j": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_k": [],
+    "query_l": [
+      {
+        "ssn": 75
+      },
+      {
+        "ssn": 80
+      }
+    ]
+  },
+  "db11": {
+    "query_a": [],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      }
+    ],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "C",
+        "cno": 101
+      },
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 310
+      },
+      {
+        "dcode": "CS",
+        "cno": 330
+      },
+      {
+        "dcode": "CS",
+        "cno": 530
+      },
+      {
+        "dcode": "CS",
+        "cno": 550
+      },
+      {
+        "dcode": "History",
+        "cno": 101
+      },
+      {
+        "dcode": "History",
+        "cno": 102
+      },
+      {
+        "dcode": "History",
+        "cno": 110
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [],
+    "query_h": [],
+    "query_i": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      }
+    ],
+    "query_j": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      }
+    ],
+    "query_k": [],
+    "query_l": [
+      {
+        "ssn": 75
+      }
+    ]
+  },
+  "db12": {
+    "query_a": [],
+    "query_b": [],
+    "query_c": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_d": [],
+    "query_e": [],
+    "query_f": [
+      {
+        "dcode": "C",
+        "cno": 101
+      },
+      {
+        "dcode": "CS",
+        "cno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 310
+      },
+      {
+        "dcode": "CS",
+        "cno": 330
+      },
+      {
+        "dcode": "CS",
+        "cno": 530
+      },
+      {
+        "dcode": "CS",
+        "cno": 550
+      },
+      {
+        "dcode": "History",
+        "cno": 101
+      },
+      {
+        "dcode": "History",
+        "cno": 102
+      },
+      {
+        "dcode": "History",
+        "cno": 110
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125
+      }
+    ],
+    "query_g": [],
+    "query_h": [],
+    "query_i": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "query_j": [],
+    "query_k": [],
+    "query_l": [
+      {
+        "ssn": 75
+      },
+      {
+        "ssn": 80
+      }
+    ]
+  }
+}

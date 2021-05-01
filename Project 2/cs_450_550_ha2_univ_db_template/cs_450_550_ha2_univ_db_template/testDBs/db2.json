@@ -1,0 +1,13 @@
+{
+  "db_name": "university_database",
+  "tables": {
+    "department": [],
+    "course": [],
+    "prereq": [],
+    "class": [],
+    "faculty": [],
+    "student": [],
+    "enrollment": [],
+    "transcript": []
+  }
+}

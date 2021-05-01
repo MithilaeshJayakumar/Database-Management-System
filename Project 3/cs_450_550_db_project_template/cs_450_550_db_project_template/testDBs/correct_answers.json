@@ -1,0 +1,1643 @@
+{
+  "db1": {
+    "shippedVsCustDemand": [
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "desk",
+        "SUPPLIEDQTY": 25,
+        "DEMANDQTY": 3
+      },
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "drawer",
+        "SUPPLIEDQTY": 15,
+        "DEMANDQTY": 12
+      },
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "table",
+        "SUPPLIEDQTY": 52,
+        "DEMANDQTY": 6
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "end table",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 5
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "leg",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 10
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "round table",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 15
+      },
+      {
+        "CUSTOMER": "customer3",
+        "ITEM": "desk",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 21
+      },
+      {
+        "CUSTOMER": "customer3",
+        "ITEM": "desk top",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 14
+      },
+      {
+        "CUSTOMER": "customer3",
+        "ITEM": "end table",
+        "SUPPLIEDQTY": 1,
+        "DEMANDQTY": 7
+      }
+    ],
+    "totalManufItems": [
+      {
+        "ITEM": "desk",
+        "TOTALMANUFQTY": 25
+      },
+      {
+        "ITEM": "end table",
+        "TOTALMANUFQTY": 155
+      }
+    ],
+    "matsUsedVsShipped": [
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 15,
+        "SHIPPEDQTY": 70
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 5,
+        "SHIPPEDQTY": 100
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 80,
+        "SHIPPEDQTY": 150
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 10,
+        "SHIPPEDQTY": 200
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 40,
+        "SHIPPEDQTY": 200
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 150,
+        "SHIPPEDQTY": 5
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 600,
+        "SHIPPEDQTY": 50
+      }
+    ],
+    "producedVsShipped": [
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 14,
+        "ORDEREDQTY": 15
+      },
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 10,
+        "ORDEREDQTY": 10
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 1,
+        "ORDEREDQTY": 5
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 2,
+        "ORDEREDQTY": 150
+      }
+    ],
+    "suppliedVsShipped": [
+      {
+        "ITEM": "desk",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 17,
+        "SHIPPEDQTY": 2
+      },
+      {
+        "ITEM": "drawer",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 18,
+        "SHIPPEDQTY": 100
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 15,
+        "SHIPPEDQTY": 12
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 20,
+        "SHIPPEDQTY": 40
+      }
+    ],
+    "perSupplierCost": [
+      {
+        "SUPPLIER": "supplier1",
+        "COST": 45412.5
+      },
+      {
+        "SUPPLIER": "supplier2",
+        "COST": 30517.6
+      },
+      {
+        "SUPPLIER": "supplier3",
+        "COST": 4949
+      }
+    ],
+    "perManufCost": [
+      {
+        "MANUF": "manuf1",
+        "COST": 21599.7
+      },
+      {
+        "MANUF": "manuf2",
+        "COST": 16987.5
+      },
+      {
+        "MANUF": "manuf3",
+        "COST": 75397.5
+      }
+    ],
+    "perShipperCost": [
+      {
+        "SHIPPER": "FedEx",
+        "COST": 155337.75
+      },
+      {
+        "SHIPPER": "UPS",
+        "COST": 60157.51
+      }
+    ],
+    "totalCostBreakDown": [
+      {
+        "SUPPLYCOST": 80879.1,
+        "MANUFCOST": 113984.7,
+        "SHIPPINGCOST": 215495.26,
+        "TOTALCOST": 410359.06
+      }
+    ],
+    "customersWithUnsatisfiedDemand": [
+      {
+        "CUSTOMER": "customer2"
+      },
+      {
+        "CUSTOMER": "customer3"
+      }
+    ],
+    "suppliersWithUnsentOrders": [
+      {
+        "SUPPLIER": "supplier1"
+      }
+    ],
+    "manufsWoutEnoughMats": [
+      {
+        "MANUF": "manuf3"
+      }
+    ],
+    "manufsWithUnsentOrders": [
+      {
+        "MANUF": "manuf1"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ]
+  },
+  "db2": {
+    "shippedVsCustDemand": [
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "table",
+        "SUPPLIEDQTY": 6,
+        "DEMANDQTY": 6
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "round table",
+        "SUPPLIEDQTY": 11,
+        "DEMANDQTY": 15
+      },
+      {
+        "CUSTOMER": "customer3",
+        "ITEM": "end table",
+        "SUPPLIEDQTY": 8,
+        "DEMANDQTY": 7
+      }
+    ],
+    "totalManufItems": [
+      {
+        "ITEM": "desk",
+        "TOTALMANUFQTY": 25
+      },
+      {
+        "ITEM": "end table",
+        "TOTALMANUFQTY": 155
+      },
+      {
+        "ITEM": "round table",
+        "TOTALMANUFQTY": 2
+      },
+      {
+        "ITEM": "table",
+        "TOTALMANUFQTY": 11
+      }
+    ],
+    "matsUsedVsShipped": [
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 15,
+        "SHIPPEDQTY": 70
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 5,
+        "SHIPPEDQTY": 20
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 92,
+        "SHIPPEDQTY": 160
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 3,
+        "SHIPPEDQTY": 30
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 10,
+        "SHIPPEDQTY": 150
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 72,
+        "SHIPPEDQTY": 200
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 8,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 150,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 602,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 2,
+        "SHIPPEDQTY": 0
+      }
+    ],
+    "producedVsShipped": [
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 14,
+        "ORDEREDQTY": 15
+      },
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 7,
+        "ORDEREDQTY": 10
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 1,
+        "ORDEREDQTY": 5
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 4,
+        "ORDEREDQTY": 150
+      },
+      {
+        "ITEM": "round table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 2,
+        "ORDEREDQTY": 2
+      },
+      {
+        "ITEM": "table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 1,
+        "ORDEREDQTY": 3
+      },
+      {
+        "ITEM": "table",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 2,
+        "ORDEREDQTY": 8
+      }
+    ],
+    "suppliedVsShipped": [
+      {
+        "ITEM": "round table",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 11,
+        "SHIPPEDQTY": 11
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 5,
+        "SHIPPEDQTY": 5
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 2,
+        "SHIPPEDQTY": 1
+      }
+    ],
+    "perSupplierCost": [
+      {
+        "SUPPLIER": "supplier1",
+        "COST": 8100
+      },
+      {
+        "SUPPLIER": "supplier2",
+        "COST": 3573.76
+      },
+      {
+        "SUPPLIER": "supplier3",
+        "COST": 13899.5
+      }
+    ],
+    "perManufCost": [
+      {
+        "MANUF": "manuf1",
+        "COST": 28651.7
+      },
+      {
+        "MANUF": "manuf2",
+        "COST": 34909.5
+      },
+      {
+        "MANUF": "manuf3",
+        "COST": 81391.65
+      }
+    ],
+    "perShipperCost": [
+      {
+        "SHIPPER": "FedEx",
+        "COST": 137651.65
+      },
+      {
+        "SHIPPER": "UPS",
+        "COST": 24221.36
+      }
+    ],
+    "totalCostBreakDown": [
+      {
+        "SUPPLYCOST": 25573.26,
+        "MANUFCOST": 144952.85,
+        "SHIPPINGCOST": 161873.01,
+        "TOTALCOST": 332399.12
+      }
+    ],
+    "customersWithUnsatisfiedDemand": [
+      {
+        "CUSTOMER": "customer2"
+      }
+    ],
+    "suppliersWithUnsentOrders": [
+      {
+        "SUPPLIER": "supplier2"
+      }
+    ],
+    "manufsWoutEnoughMats": [
+      {
+        "MANUF": "manuf2"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ],
+    "manufsWithUnsentOrders": [
+      {
+        "MANUF": "manuf1"
+      },
+      {
+        "MANUF": "manuf2"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ]
+  },
+  "db3": {
+    "shippedVsCustDemand": [
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "drawer",
+        "SUPPLIEDQTY": 16,
+        "DEMANDQTY": 18
+      },
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "table",
+        "SUPPLIEDQTY": 6,
+        "DEMANDQTY": 6
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "desk",
+        "SUPPLIEDQTY": 30,
+        "DEMANDQTY": 3
+      }
+    ],
+    "totalManufItems": [
+      {
+        "ITEM": "desk",
+        "TOTALMANUFQTY": 30
+      },
+      {
+        "ITEM": "round table",
+        "TOTALMANUFQTY": 150
+      },
+      {
+        "ITEM": "table",
+        "TOTALMANUFQTY": 3
+      }
+    ],
+    "matsUsedVsShipped": [
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 20,
+        "SHIPPEDQTY": 70
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 80,
+        "SHIPPEDQTY": 165
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 10,
+        "SHIPPEDQTY": 200
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 52,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 3,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 150,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 150,
+        "SHIPPEDQTY": 0
+      }
+    ],
+    "producedVsShipped": [
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 20,
+        "ORDEREDQTY": 20
+      },
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 0,
+        "ORDEREDQTY": 10
+      },
+      {
+        "ITEM": "round table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 85,
+        "ORDEREDQTY": 150
+      },
+      {
+        "ITEM": "table",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 0,
+        "ORDEREDQTY": 3
+      }
+    ],
+    "suppliedVsShipped": [
+      {
+        "ITEM": "desk",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 30,
+        "SHIPPEDQTY": 30
+      },
+      {
+        "ITEM": "drawer",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 4,
+        "SHIPPEDQTY": 16
+      },
+      {
+        "ITEM": "round table",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 11,
+        "SHIPPEDQTY": 16
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 4,
+        "SHIPPEDQTY": 16
+      }
+    ],
+    "perSupplierCost": [
+      {
+        "SUPPLIER": "supplier1",
+        "COST": 6600
+      },
+      {
+        "SUPPLIER": "supplier2",
+        "COST": 12881.2
+      },
+      {
+        "SUPPLIER": "supplier3",
+        "COST": 27272.6
+      }
+    ],
+    "perManufCost": [
+      {
+        "MANUF": "manuf1",
+        "COST": 22952.7
+      },
+      {
+        "MANUF": "manuf2",
+        "COST": 25339.5
+      },
+      {
+        "MANUF": "manuf3",
+        "COST": 256285.55
+      }
+    ],
+    "perShipperCost": [
+      {
+        "SHIPPER": "FedEx",
+        "COST": 106064.55
+      },
+      {
+        "SHIPPER": "UPS",
+        "COST": 91259.76
+      }
+    ],
+    "totalCostBreakDown": [
+      {
+        "SUPPLYCOST": 46753.8,
+        "MANUFCOST": 304577.75,
+        "SHIPPINGCOST": 197324.31,
+        "TOTALCOST": 548655.86
+      }
+    ],
+    "customersWithUnsatisfiedDemand": [
+      {
+        "CUSTOMER": "customer1"
+      }
+    ],
+    "suppliersWithUnsentOrders": [],
+    "manufsWoutEnoughMats": [
+      {
+        "MANUF": "manuf2"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ],
+    "manufsWithUnsentOrders": [
+      {
+        "MANUF": "manuf2"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ]
+  },
+  "db4": {
+    "shippedVsCustDemand": [
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "round table",
+        "SUPPLIEDQTY": 19,
+        "DEMANDQTY": 18
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "desk",
+        "SUPPLIEDQTY": 5,
+        "DEMANDQTY": 3
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "table",
+        "SUPPLIEDQTY": 5,
+        "DEMANDQTY": 6
+      }
+    ],
+    "totalManufItems": [
+      {
+        "ITEM": "desk",
+        "TOTALMANUFQTY": 25
+      },
+      {
+        "ITEM": "end table",
+        "TOTALMANUFQTY": 5
+      }
+    ],
+    "matsUsedVsShipped": [
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 15,
+        "SHIPPEDQTY": 70
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 5,
+        "SHIPPEDQTY": 100
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 80,
+        "SHIPPEDQTY": 516
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 10,
+        "SHIPPEDQTY": 200
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 40,
+        "SHIPPEDQTY": 100
+      }
+    ],
+    "producedVsShipped": [
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 14,
+        "ORDEREDQTY": 15
+      },
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 5,
+        "ORDEREDQTY": 10
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 15,
+        "ORDEREDQTY": 5
+      }
+    ],
+    "suppliedVsShipped": [
+      {
+        "ITEM": "drawer",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 110,
+        "SHIPPEDQTY": 215
+      },
+      {
+        "ITEM": "leg",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 500,
+        "SHIPPEDQTY": 601
+      },
+      {
+        "ITEM": "leg",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 50,
+        "SHIPPEDQTY": 15
+      },
+      {
+        "ITEM": "round table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 15,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 5,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 2,
+        "SHIPPEDQTY": 2
+      }
+    ],
+    "perSupplierCost": [
+      {
+        "SUPPLIER": "supplier1",
+        "COST": 27787.5
+      },
+      {
+        "SUPPLIER": "supplier2",
+        "COST": 48573.76
+      },
+      {
+        "SUPPLIER": "supplier3",
+        "COST": 38138
+      }
+    ],
+    "perManufCost": [
+      {
+        "MANUF": "manuf1",
+        "COST": 21599.7
+      },
+      {
+        "MANUF": "manuf2",
+        "COST": 16987.5
+      },
+      {
+        "MANUF": "manuf3",
+        "COST": 0
+      }
+    ],
+    "perShipperCost": [
+      {
+        "SHIPPER": "FedEx",
+        "COST": 89807.1
+      },
+      {
+        "SHIPPER": "UPS",
+        "COST": 99640.26
+      }
+    ],
+    "totalCostBreakDown": [
+      {
+        "SUPPLYCOST": 114499.26,
+        "MANUFCOST": 38587.2,
+        "SHIPPINGCOST": 189447.36,
+        "TOTALCOST": 342533.82
+      }
+    ],
+    "customersWithUnsatisfiedDemand": [
+      {
+        "CUSTOMER": "customer2"
+      }
+    ],
+    "suppliersWithUnsentOrders": [
+      {
+        "SUPPLIER": "supplier1"
+      },
+      {
+        "SUPPLIER": "supplier3"
+      }
+    ],
+    "manufsWoutEnoughMats": [],
+    "manufsWithUnsentOrders": [
+      {
+        "MANUF": "manuf1"
+      },
+      {
+        "MANUF": "manuf2"
+      }
+    ]
+  },
+  "db5": {
+    "shippedVsCustDemand": [
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "round table",
+        "SUPPLIEDQTY": 19,
+        "DEMANDQTY": 18
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "desk",
+        "SUPPLIEDQTY": 5,
+        "DEMANDQTY": 3
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "table",
+        "SUPPLIEDQTY": 5,
+        "DEMANDQTY": 6
+      }
+    ],
+    "totalManufItems": [
+      {
+        "ITEM": "desk",
+        "TOTALMANUFQTY": 25
+      },
+      {
+        "ITEM": "end table",
+        "TOTALMANUFQTY": 155
+      },
+      {
+        "ITEM": "round table",
+        "TOTALMANUFQTY": 2
+      },
+      {
+        "ITEM": "table",
+        "TOTALMANUFQTY": 11
+      }
+    ],
+    "matsUsedVsShipped": [
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 15,
+        "SHIPPEDQTY": 70
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 5,
+        "SHIPPEDQTY": 100
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 92,
+        "SHIPPEDQTY": 516
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 3,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 10,
+        "SHIPPEDQTY": 200
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 72,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 8,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 150,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 602,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 2,
+        "SHIPPEDQTY": 0
+      }
+    ],
+    "producedVsShipped": [
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 14,
+        "ORDEREDQTY": 15
+      },
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 5,
+        "ORDEREDQTY": 10
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 0,
+        "ORDEREDQTY": 5
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 0,
+        "ORDEREDQTY": 150
+      },
+      {
+        "ITEM": "round table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 16,
+        "ORDEREDQTY": 2
+      },
+      {
+        "ITEM": "table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 3,
+        "ORDEREDQTY": 3
+      },
+      {
+        "ITEM": "table",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 0,
+        "ORDEREDQTY": 8
+      }
+    ],
+    "suppliedVsShipped": [
+      {
+        "ITEM": "drawer",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 110,
+        "SHIPPEDQTY": 75
+      },
+      {
+        "ITEM": "leg",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 500,
+        "SHIPPEDQTY": 501
+      },
+      {
+        "ITEM": "leg",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 50,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "ITEM": "round table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 15,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 5,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 2,
+        "SHIPPEDQTY": 2
+      }
+    ],
+    "perSupplierCost": [
+      {
+        "SUPPLIER": "supplier1",
+        "COST": 27787.5
+      },
+      {
+        "SUPPLIER": "supplier2",
+        "COST": 48573.76
+      },
+      {
+        "SUPPLIER": "supplier3",
+        "COST": 38138
+      }
+    ],
+    "perManufCost": [
+      {
+        "MANUF": "manuf1",
+        "COST": 28651.7
+      },
+      {
+        "MANUF": "manuf2",
+        "COST": 34909.5
+      },
+      {
+        "MANUF": "manuf3",
+        "COST": 81391.65
+      }
+    ],
+    "perShipperCost": [
+      {
+        "SHIPPER": "FedEx",
+        "COST": 67089.85
+      },
+      {
+        "SHIPPER": "UPS",
+        "COST": 95815.26
+      }
+    ],
+    "totalCostBreakDown": [
+      {
+        "SUPPLYCOST": 114499.26,
+        "MANUFCOST": 144952.85,
+        "SHIPPINGCOST": 162905.11,
+        "TOTALCOST": 422357.22
+      }
+    ],
+    "customersWithUnsatisfiedDemand": [
+      {
+        "CUSTOMER": "customer2"
+      }
+    ],
+    "suppliersWithUnsentOrders": [
+      {
+        "SUPPLIER": "supplier1"
+      },
+      {
+        "SUPPLIER": "supplier3"
+      }
+    ],
+    "manufsWoutEnoughMats": [
+      {
+        "MANUF": "manuf1"
+      },
+      {
+        "MANUF": "manuf2"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ],
+    "manufsWithUnsentOrders": [
+      {
+        "MANUF": "manuf1"
+      },
+      {
+        "MANUF": "manuf2"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ]
+  },
+  "db6": {
+    "shippedVsCustDemand": [
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "round table",
+        "SUPPLIEDQTY": 2,
+        "DEMANDQTY": 1
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "desk",
+        "SUPPLIEDQTY": 1,
+        "DEMANDQTY": 1
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "table",
+        "SUPPLIEDQTY": 2,
+        "DEMANDQTY": 1
+      }
+    ],
+    "totalManufItems": [
+      {
+        "ITEM": "desk",
+        "TOTALMANUFQTY": 2
+      },
+      {
+        "ITEM": "end table",
+        "TOTALMANUFQTY": 2
+      },
+      {
+        "ITEM": "round table",
+        "TOTALMANUFQTY": 1
+      },
+      {
+        "ITEM": "table",
+        "TOTALMANUFQTY": 2
+      }
+    ],
+    "matsUsedVsShipped": [
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 1,
+        "SHIPPEDQTY": 1
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 1,
+        "SHIPPEDQTY": 1
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 12,
+        "SHIPPEDQTY": 2
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 1,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 1,
+        "SHIPPEDQTY": 1
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 8,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 1,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 1,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 5,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "table top",
+        "REQUIREDQTY": 1,
+        "SHIPPEDQTY": 0
+      }
+    ],
+    "producedVsShipped": [
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 1,
+        "ORDEREDQTY": 1
+      },
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 1,
+        "ORDEREDQTY": 1
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 0,
+        "ORDEREDQTY": 1
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 0,
+        "ORDEREDQTY": 1
+      },
+      {
+        "ITEM": "round table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 1,
+        "ORDEREDQTY": 1
+      },
+      {
+        "ITEM": "table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 1,
+        "ORDEREDQTY": 1
+      },
+      {
+        "ITEM": "table",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 0,
+        "ORDEREDQTY": 1
+      }
+    ],
+    "suppliedVsShipped": [
+      {
+        "ITEM": "drawer",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 1,
+        "SHIPPEDQTY": 1
+      },
+      {
+        "ITEM": "leg",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 1,
+        "SHIPPEDQTY": 1
+      },
+      {
+        "ITEM": "leg",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 1,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "ITEM": "round table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 1,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 1,
+        "SHIPPEDQTY": 0
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 1,
+        "SHIPPEDQTY": 1
+      }
+    ],
+    "perSupplierCost": [
+      {
+        "SUPPLIER": "supplier1",
+        "COST": 375
+      },
+      {
+        "SUPPLIER": "supplier2",
+        "COST": 219
+      },
+      {
+        "SUPPLIER": "supplier3",
+        "COST": 57
+      }
+    ],
+    "perManufCost": [
+      {
+        "MANUF": "manuf1",
+        "COST": 1394
+      },
+      {
+        "MANUF": "manuf2",
+        "COST": 947
+      },
+      {
+        "MANUF": "manuf3",
+        "COST": 757
+      }
+    ],
+    "perShipperCost": [
+      {
+        "SHIPPER": "FedEx",
+        "COST": 2350
+      },
+      {
+        "SHIPPER": "UPS",
+        "COST": 2050
+      }
+    ],
+    "totalCostBreakDown": [
+      {
+        "SUPPLYCOST": 651,
+        "MANUFCOST": 3098,
+        "SHIPPINGCOST": 4400,
+        "TOTALCOST": 8149
+      }
+    ],
+    "customersWithUnsatisfiedDemand": [],
+    "suppliersWithUnsentOrders": [
+      {
+        "SUPPLIER": "supplier1"
+      },
+      {
+        "SUPPLIER": "supplier3"
+      }
+    ],
+    "manufsWoutEnoughMats": [
+      {
+        "MANUF": "manuf1"
+      },
+      {
+        "MANUF": "manuf2"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ],
+    "manufsWithUnsentOrders": [
+      {
+        "MANUF": "manuf1"
+      },
+      {
+        "MANUF": "manuf2"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ]
+  },
+  "db7": {
+    "shippedVsCustDemand": [
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "desk",
+        "SUPPLIEDQTY": 25,
+        "DEMANDQTY": 3
+      },
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "drawer",
+        "SUPPLIEDQTY": 15,
+        "DEMANDQTY": 12
+      },
+      {
+        "CUSTOMER": "customer1",
+        "ITEM": "table",
+        "SUPPLIEDQTY": 52,
+        "DEMANDQTY": 6
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "end table",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 5
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "leg",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 10
+      },
+      {
+        "CUSTOMER": "customer2",
+        "ITEM": "round table",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 15
+      },
+      {
+        "CUSTOMER": "customer3",
+        "ITEM": "desk",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 21
+      },
+      {
+        "CUSTOMER": "customer3",
+        "ITEM": "desk top",
+        "SUPPLIEDQTY": 0,
+        "DEMANDQTY": 14
+      },
+      {
+        "CUSTOMER": "customer3",
+        "ITEM": "end table",
+        "SUPPLIEDQTY": 1,
+        "DEMANDQTY": 7
+      }
+    ],
+    "totalManufItems": [
+      {
+        "ITEM": "desk",
+        "TOTALMANUFQTY": 25
+      },
+      {
+        "ITEM": "end table",
+        "TOTALMANUFQTY": 155
+      }
+    ],
+    "matsUsedVsShipped": [
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 15,
+        "SHIPPEDQTY": 70
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 5,
+        "SHIPPEDQTY": 100
+      },
+      {
+        "MANUF": "manuf1",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 80,
+        "SHIPPEDQTY": 150
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "desk top",
+        "REQUIREDQTY": 10,
+        "SHIPPEDQTY": 200
+      },
+      {
+        "MANUF": "manuf2",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 40,
+        "SHIPPEDQTY": 200
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "drawer",
+        "REQUIREDQTY": 150,
+        "SHIPPEDQTY": 5
+      },
+      {
+        "MANUF": "manuf3",
+        "MATITEM": "leg",
+        "REQUIREDQTY": 600,
+        "SHIPPEDQTY": 50
+      }
+    ],
+    "producedVsShipped": [
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 14,
+        "ORDEREDQTY": 15
+      },
+      {
+        "ITEM": "desk",
+        "MANUF": "manuf2",
+        "SHIPPEDOUTQTY": 10,
+        "ORDEREDQTY": 10
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf1",
+        "SHIPPEDOUTQTY": 1,
+        "ORDEREDQTY": 5
+      },
+      {
+        "ITEM": "end table",
+        "MANUF": "manuf3",
+        "SHIPPEDOUTQTY": 2,
+        "ORDEREDQTY": 150
+      }
+    ],
+    "suppliedVsShipped": [
+      {
+        "ITEM": "desk",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 17,
+        "SHIPPEDQTY": 2
+      },
+      {
+        "ITEM": "drawer",
+        "SUPPLIER": "supplier3",
+        "SUPPLIEDQTY": 18,
+        "SHIPPEDQTY": 100
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier1",
+        "SUPPLIEDQTY": 15,
+        "SHIPPEDQTY": 12
+      },
+      {
+        "ITEM": "table",
+        "SUPPLIER": "supplier2",
+        "SUPPLIEDQTY": 20,
+        "SHIPPEDQTY": 40
+      }
+    ],
+    "perSupplierCost": [
+      {
+        "SUPPLIER": "supplier1",
+        "COST": 45412.5
+      },
+      {
+        "SUPPLIER": "supplier2",
+        "COST": 30517.6
+      },
+      {
+        "SUPPLIER": "supplier3",
+        "COST": 4949
+      },
+      {
+        "SUPPLIER": "supplier4",
+        "COST": 0
+      }
+    ],
+    "perManufCost": [
+      {
+        "MANUF": "manuf1",
+        "COST": 21599.7
+      },
+      {
+        "MANUF": "manuf2",
+        "COST": 16987.5
+      },
+      {
+        "MANUF": "manuf3",
+        "COST": 75397.5
+      },
+      {
+        "MANUF": "manuf4",
+        "COST": 0
+      }
+    ],
+    "perShipperCost": [
+      {
+        "SHIPPER": "FedEx",
+        "COST": 155337.75
+      },
+      {
+        "SHIPPER": "UPS",
+        "COST": 60157.51
+      },
+      {
+        "SHIPPER": "USPS",
+        "COST": 0
+      }
+    ],
+    "totalCostBreakDown": [
+      {
+        "SUPPLYCOST": 80879.1,
+        "MANUFCOST": 113984.7,
+        "SHIPPINGCOST": 215495.26,
+        "TOTALCOST": 410359.06
+      }
+    ],
+    "customersWithUnsatisfiedDemand": [
+      {
+        "CUSTOMER": "customer2"
+      },
+      {
+        "CUSTOMER": "customer3"
+      }
+    ],
+    "suppliersWithUnsentOrders": [
+      {
+        "SUPPLIER": "supplier1"
+      }
+    ],
+    "manufsWoutEnoughMats": [
+      {
+        "MANUF": "manuf3"
+      }
+    ],
+    "manufsWithUnsentOrders": [
+      {
+        "MANUF": "manuf1"
+      },
+      {
+        "MANUF": "manuf3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "db_name": "university_database",
+  "tables": {
+    "department": [
+      {
+        "dcode": "C",
+        "dname": "culture",
+        "chair": 4
+      },
+      {
+        "dcode": "History",
+        "dname": "history",
+        "chair": 9
+      },
+      {
+        "dcode": "CS",
+        "dname": "computer_science",
+        "chair": 17
+      },
+      {
+        "dcode": "OR",
+        "dname": "operations_research",
+        "chair": 11
+      },
+      {
+        "dcode": "MTH",
+        "dname": "Mathematics",
+        "chair": 13
+      }
+    ],
+    "course": [
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "title": "object-oriented programming",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 310,
+        "title": "Data Structure",
+        "units": 3
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "title": "Discrete Mathematics",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "title": "Formal Methods",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 530,
+        "title": "Mathematical Foundations of CS",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 550,
+        "title": "Database Management",
+        "units": 6
+      },
+      {
+        "dcode": "C",
+        "cno": 101,
+        "title": "Vacation in Hawaii",
+        "units": 1
+      },
+      {
+        "dcode": "History",
+        "cno": 101,
+        "title": "Ancient History",
+        "units": 3
+      },
+      {
+        "dcode": "History",
+        "cno": 102,
+        "title": "Middle Ages",
+        "units": 3
+      },
+      {
+        "dcode": "History",
+        "cno": 110,
+        "title": "European History",
+        "units": 6
+      }
+    ],
+    "prereq": [
+      {
+        "dcode": "CS",
+        "cno": 550,
+        "pcode": "CS",
+        "pno": 330
+      },
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "pcode": "CS",
+        "pno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "pcode": "MTH",
+        "pno": 125
+      },
+      {
+        "dcode": "CS",
+        "cno": 550,
+        "pcode": "CS",
+        "pno": 310
+      }
+    ],
+    "class": [
+      {
+        "class": 21,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 25
+      },
+      {
+        "class": 22,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 35
+      },
+      {
+        "class": 23,
+        "dcode": "CS",
+        "cno": 550,
+        "instr": 10
+      },
+      {
+        "class": 24,
+        "dcode": "MTH",
+        "cno": 125,
+        "instr": 21
+      },
+      {
+        "class": 25,
+        "dcode": "History",
+        "cno": 101,
+        "instr": 10
+      },
+      {
+        "class": 26,
+        "dcode": "History",
+        "cno": 102,
+        "instr": 10
+      },
+      {
+        "class": 27,
+        "dcode": "History",
+        "cno": 110,
+        "instr": 9
+      },
+      {
+        "class": 28,
+        "dcode": "C",
+        "cno": 101,
+        "instr": 4
+      }
+    ],
+    "faculty": [
+      {
+        "ssn": 4,
+        "name": "Dietz",
+        "dcode": "C",
+        "rank": "professor"
+      },
+      {
+        "ssn": 9,
+        "name": "Jackson",
+        "dcode": "History",
+        "rank": "professor"
+      },
+      {
+        "ssn": 10,
+        "name": "Bienz",
+        "dcode": "History",
+        "rank": "assistant_professor"
+      },
+      {
+        "ssn": 13,
+        "name": "Webber",
+        "dcode": "MTH",
+        "rank": "professor"
+      },
+      {
+        "ssn": 17,
+        "name": "Oneil",
+        "dcode": "CS",
+        "rank": "professor"
+      },
+      {
+        "ssn": 11,
+        "name": "McLean",
+        "dcode": "OR",
+        "rank": "professor"
+      },
+      {
+        "ssn": 25,
+        "name": "Smith",
+        "dcode": "CS",
+        "rank": "assistant_professor"
+      },
+      {
+        "ssn": 35,
+        "name": "Johnson",
+        "dcode": "CS",
+        "rank": "professor"
+      }
+    ],
+    "student": [
+      {
+        "ssn": 10,
+        "name": "New",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 75,
+        "name": "Green",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "Simpson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 82,
+        "name": "Robertson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 83,
+        "name": "Peterson",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 84,
+        "name": "John",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "enrollment": [
+      {
+        "class": 21,
+        "ssn": 75
+      },
+      {
+        "class": 21,
+        "ssn": 80
+      },
+      {
+        "class": 21,
+        "ssn": 82
+      },
+      {
+        "class": 22,
+        "ssn": 82
+      },
+      {
+        "class": 23,
+        "ssn": 82
+      },
+      {
+        "class": 24,
+        "ssn": 82
+      },
+      {
+        "class": 25,
+        "ssn": 82
+      },
+      {
+        "class": 26,
+        "ssn": 80
+      },
+      {
+        "class": 26,
+        "ssn": 84
+      },
+      {
+        "class": 26,
+        "ssn": 82
+      },
+      {
+        "class": 27,
+        "ssn": 82
+      },
+      {
+        "class": 28,
+        "ssn": 82
+      }
+    ],
+    "transcript": [
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "ssn": 82,
+        "grade": "A"
+      },
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "ssn": 75,
+        "grade": "A"
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "ssn": 75,
+        "grade": "F"
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "ssn": 82,
+        "grade": "B"
+      },
+      {
+        "dcode": "CS",
+        "cno": 550,
+        "ssn": 83,
+        "grade": "B"
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "ssn": 80,
+        "grade": "C"
+      },
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "ssn": 80,
+        "grade": "C"
+      },
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "ssn": 84,
+        "grade": "B"
+      },
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "ssn": 84,
+        "grade": "A"
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "ssn": 84,
+        "grade": "A"
+      },
+      {
+        "dcode": "CS",
+        "cno": 530,
+        "ssn": 84,
+        "grade": "A"
+      },
+      {
+        "dcode": "CS",
+        "cno": 530,
+        "ssn": 83,
+        "grade": "B"
+      }
+    ]
+  }
+}

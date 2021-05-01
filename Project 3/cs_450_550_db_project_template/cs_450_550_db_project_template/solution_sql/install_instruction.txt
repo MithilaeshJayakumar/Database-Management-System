@@ -1,0 +1,24 @@
+Link for python installation:
+https://realpython.com/installing-python/
+--> Requires python 3.5 or higher
+
+Link for zorba installation:
+http://www.zorba.io/home
+
+Link for cx_Oracle Installation:
+https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html
+
+
+--> Requires VPN to GMU network similar to the way Oracle SQL Developer requires it
+--> Set your username and password provided in credentials.py
+--> A sample template for answer is provided in queries_template.sql. Your views must have exactly the same name and the same column names ordered by as specified in the question.
+
+
+--> All queries must be in queries.sql
+--> Do not include a semi-colon(;) in comments in any of the SQL file.
+--> Must have semicolon(;) after each command in the SQL file.
+--> Make sure you have the folder named `db_files` in the same directory as main.py
+--> Do not change any of the database files inside the folder `db_files'
+--> Do not change or add any file inside the folder `db_files`
+--> Do not change 'create_empty_tables.sql' file or its location
+

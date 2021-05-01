@@ -1,0 +1,33 @@
+{
+  "query_a": [],
+  "query_b": [
+    {
+      "dcode": "CS",
+      "cno": 550
+    },
+    {
+      "dcode": "History",
+      "cno": 110
+    }
+  ],
+  "query_c": [
+    {
+      "ssn": 10,
+      "name": "New",
+      "major": "OR",
+      "status": "active"
+    },
+    {
+      "ssn": 83,
+      "name": "Peterson",
+      "major": "CS",
+      "status": "active"
+    },
+    {
+      "ssn": 84,
+      "name": "John",
+      "major": "CS",
+      "status": "active"
+    }
+  ]
+}

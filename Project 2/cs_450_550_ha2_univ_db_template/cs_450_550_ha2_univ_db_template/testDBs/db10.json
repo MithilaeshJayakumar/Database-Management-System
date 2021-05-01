@@ -1,0 +1,55 @@
+{
+  "db_name": "university_database",
+  "tables": {
+    "department": [],
+    "course": [],
+    "prereq": [],
+    "class": [
+      {
+        "class": 25,
+        "dcode": "HIST",
+        "cno": 101,
+        "instr": 1
+      },
+      { "class": 21,
+        "dcode": "HIST",
+        "cno": 101,
+        "instr": 1
+
+      }
+    ],
+    "faculty": [
+      {
+        "ssn": 1,
+        "name": "Brodsky",
+        "dcode": "CS",
+        "rank": "professor"
+      }
+    ],
+    "student": [
+      {
+        "ssn": 75,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      },
+      {
+        "ssn": 80,
+        "name": "New",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "enrollment": [
+      {
+        "class": 25,
+        "ssn": 75
+      },
+      {
+        "class": 21,
+        "ssn": 80
+      }
+    ],
+    "transcript": []
+  }
+}
